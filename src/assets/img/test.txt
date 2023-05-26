@@ -1,0 +1,27 @@
+js file - User.js
+
+export class User() {}
+
+{} =>
+constuct()
+getUser() {
+	
+}
+
+
+--- Login.vue
+const { data, error } = await supabase.auth.getUser();
+
+	if (data) {
+ 		const user = new User(data.user);
+		}
+		
+	if (error) {
+		return "Пользователь не авторизован";
+	}
+
+
+
+--- store
+
+При авторизации пользователь - авторизовался то в store/index.js делать setUser где можно будет в последующем обращаться с самому пользователю т.е state.user.id и т.д

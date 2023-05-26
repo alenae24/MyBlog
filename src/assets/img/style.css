@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800&display=swap');
+
+#app {
+  padding: 0;
+  font-family: 'Exo 2', sans-serif;
+  
+}
+
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+span{
+  color: rgba(47, 128, 237, 0.75);
+}
+
+hr{
+  
+  
+}
+
+form {
+  
+}
+
+label {
+  font-size: 24px;
+}
+
+input {
+  font-size: 24px;
+  margin: 10px 0px;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+label {
+  font-size: 24px;
+  margin: 10px;
+}
+
+textarea {
+  font-size: 24px;
+  height: 100px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 10px;
+  resize: none;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+
+
+/* posts  */
+
+.posts {
+  margin: 0px 3%;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.post {
+  width: 620px;
+  -webkit-line-clamp: 6;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: black;
+  text-decoration: none;
+  max-height: 750px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(201, 225, 255, 0.562);
+}
+
+.create_post {
+  margin: 0px 0px 100px 0px;
+  text-align: center;
+  justify-content: center;
+}
+
+.post_page{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* header */
+
+ header{
+  display: flex;
+  align-items: center;
+  margin: 0px 100px;
+}
+
+.link {
+  cursor: pointer;
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+  transition: 0.4s;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 10px 20px;
+  color: #000000;
+}
+
+.active-link {
+  color: rgba(47, 128, 237, 0.75);
+  font-weight: bold;
+}
+
+@media (hover: hover) {
+  a:hover {}
+}
+
+/* button */
+
+button {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 13px 55px;
+  background: none;
+  color: #000000;
+  border-radius: 500px;
+  border: 2px solid rgba(47, 128, 237, 0.75);
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* register, login */
+
+.signin {
+  text-align: center;
+  justify-content: center;
+}
+
+/* banner */
+
+.banner {
+  position: absolute;
+  border-radius: 15px;
+  margin: 0px 25%;
+  background-color: white;
+  top: 200px;
+  padding: 0px 47px 164px 47px;
+  width: 700px; 
+  height: 290px;
+}
+
+/* left, right text */
+
+.text{
+  margin: 50px 100px;
+}
+
+/* tags */
+
+.tags {
+  cursor: pointer;
+  display: inline-block;
+  justify-content: left;
+  margin-right: 10px;
+}
+
+.tag {
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 5px 40px;
+}
+
+.tags_check{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox{
+  justify-content: center;
+  margin: 0px 6.5%;
+  
+  gap: 15px;
+  align-items: center;
+  
+}
+
+/* home footer join_us */
+
+.join_us {
+  margin: 0px 0px 100px 0px;
+  text-align: center;
+  justify-content: center;
+}
+
+/* footer */
+
+footer {
+  margin-top: 80px;
+  display: flex;
+  background-color: #181515;
+}
+
+.link-noactive{
+  color: white;
+}
+
+/* account */
+
+.account{
+  margin: 0px 0px 80px 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.account_img{
+  margin-right: 15px;
+  height: 75%;
+  width: 35%;
+}
